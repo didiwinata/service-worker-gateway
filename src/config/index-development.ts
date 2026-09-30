@@ -6,7 +6,7 @@ import type { Config } from './index.ts'
  */
 export const config: Config = {
   gateways: [
-    'https://trustless-gateway.net',
+    'https://trustless-ipfs.dget.top',
     'http://127.0.0.1:8088'
   ],
   routers: [
