@@ -15,6 +15,7 @@
     "build:prod": "cross-env NODE_ENV=production node --experimental-strip-types build.js",
     "build:go": "go build -o service-worker-gateway main.go",
     "build:test": "cross-env NODE_ENV=test npm run build",
+    "deploy:prod": "npm run build:prod && npx wrangler pages deploy ./dist --branch main",
     "start": "cross-env NODE_ENV=development node --experimental-strip-types ./serve.ts --load-fixtures --watch",
     "test": "cross-env NODE_ENV=test aegir test -- --experimental-strip-types",
     "start:dev": "cross-env NODE_ENV=development node --experimental-strip-types ./serve.ts --watch",
