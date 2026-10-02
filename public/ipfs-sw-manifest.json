@@ -1,6 +1,6 @@
 {
-  "short_name": "InBrowser IPFS",
-  "name": "InBrowser IPFS Gateway",
+  "short_name": "DGet IPFS",
+  "name": "DGet IPFS Gateway",
   "icons": [
     {
       "src": "/ipfs-sw-icon-512.png",
