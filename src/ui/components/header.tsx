@@ -20,7 +20,7 @@ export const Header: FunctionComponent<HeaderProps> = ({ onShowAbout, onShowSett
   return (
     <header className='e2e-header flex items-center pa2 bg-navy bb bw3 b--aqua tc justify-between'>
       <div>
-        <a href='https://ipfs.tech' title='IPFS Project' target='_blank' rel='noopener noreferrer' aria-label='Visit the website of the IPFS Project'>
+        <a href='https://trustless.dget.top' title='IPFS Project' aria-label='Visit the website of the IPFS Project'>
           <img alt='IPFS logo' src={toAbsolutePath(ipfsLogo)} style={{ height: 50 }} className='v-top' />
         </a>
       </div>
